@@ -4,9 +4,14 @@
 package de.goldkugel.extract;
 
 /**
- * @author pallaoro
+ * 
+ * @author Peter Pallaoro
  *
  */
 public interface Extract extends Runnable {
+
+
+
+
 
 }
