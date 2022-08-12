@@ -5,4 +5,4 @@
  * @author pallaoro
  *
  */
-package de.goldkugel.extract.storage;
+package de.goldkugel.load;

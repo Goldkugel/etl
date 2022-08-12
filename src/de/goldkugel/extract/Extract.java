@@ -3,7 +3,7 @@
  */
 package de.goldkugel.extract;
 
-import de.goldkugel.extract.storage.Storage;
+import de.goldkugel.storage.Storage;
 
 /**
  * 

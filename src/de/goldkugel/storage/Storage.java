@@ -1,7 +1,7 @@
 /**
  * 
  */
-package de.goldkugel.extract.storage;
+package de.goldkugel.storage;
 
 import de.goldkugel.extract.atom.Atom;
 
