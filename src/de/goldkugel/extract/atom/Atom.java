@@ -31,7 +31,19 @@ public class Atom implements Serializable {
 	 * 
 	 */
 	private String content = null;
-
+	
+	/**
+	 * 
+	 */
+	@NonNull
+	private String source = null;
+	
+	/**
+	 * 
+	 */
+	@NonNull
+	private Integer entryIndex = null;
+	
 	/**
 	 * 
 	 */
