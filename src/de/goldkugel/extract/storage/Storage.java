@@ -30,4 +30,21 @@ public interface Storage {
 	 */
 	public void update(Atom atom);
 	
+	/**
+	 * 
+	 * @return
+	 */
+	public Long getReadCount();
+	
+	/**
+	 * 
+	 * @return
+	 */
+	public Long getWriteCount();
+	
+	/**
+	 * 
+	 * @return
+	 */
+	public Long getUpdateCount();
 }

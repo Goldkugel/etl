@@ -4,25 +4,24 @@
 package de.goldkugel.extract;
 
 import de.goldkugel.extract.storage.Storage;
-import lombok.Data;
-import lombok.NonNull;
 
 /**
  * 
  * @author Peter Pallaoro
  *
  */
-@Data
-public abstract class Extract {
+public interface Extract extends Runnable {
 	
 	/**
 	 * 
+	 * @param storage
 	 */
-	@NonNull
-	private Storage storage = null;
+	public void setStorage(Storage storage);
 	
+	/**
+	 * 
+	 * @return
+	 */
+	public Storage getStorage();
 	
-	public Extract(Storage storage) {
-		this.setStorage(storage);
-	}
 }
