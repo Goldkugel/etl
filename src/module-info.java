@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author pallaoro
- *
- */
-module extract {
-}
