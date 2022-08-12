@@ -68,4 +68,27 @@ public class Atom implements Serializable {
 		this(name);
 		this.setContent(content);
 	}
+	
+	/**
+	 * 
+	 * @param name
+	 * @param content
+	 * @param source
+	 */
+	public Atom(String name, String content, String source) {
+		this(name, content);
+		this.setSource(source);
+	}
+	
+	/**
+	 * 
+	 * @param name
+	 * @param content
+	 * @param source
+	 * @param index
+	 */
+	public Atom(String name, String content, String source, Integer index) {
+		this(name, content, source);
+		this.setEntryIndex(index);
+	}
 }
