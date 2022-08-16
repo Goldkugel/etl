@@ -3,8 +3,6 @@
  */
 package de.goldkugel.storage;
 
-import de.goldkugel.data.atom.Atom;
-
 /**
  * 
  * @author Peter Pallaoro
@@ -16,19 +14,19 @@ public interface Storage {
 	 * 
 	 * @return
 	 */
-	public Atom read();
+	public Object read();
 	
 	/**
 	 * 
 	 * @param dc
 	 */
-	public void write(Atom dc);
+	public void write(Object o);
 	
 	/**
 	 * 
 	 * @param dc
 	 */
-	public void update(Atom dc);
+	public void update(Object o);
 	
 	/**
 	 * 
