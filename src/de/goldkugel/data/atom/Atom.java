@@ -3,8 +3,10 @@
  */
 package de.goldkugel.data.atom;
 
-import de.goldkugel.data.structure.DataContainer;
+import java.io.Serializable;
+
 import lombok.Getter;
+import lombok.NonNull;
 import lombok.Setter;
 
 /**
@@ -14,8 +16,25 @@ import lombok.Setter;
  */
 @Getter
 @Setter
-public class Atom extends DataContainer {
-
+public class Atom implements Serializable {
+	
+	/**
+	 * 
+	 */
+	@NonNull
+	private String source = null;
+	
+	/**
+	 * 
+	 */
+	private Integer entryIndex = null;
+	
+	/**
+	 * 
+	 */
+	@NonNull
+	private String name = null;
+	
 	/**
 	 * 
 	 */
