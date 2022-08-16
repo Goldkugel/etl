@@ -3,7 +3,7 @@
  */
 package de.goldkugel.storage;
 
-import de.goldkugel.extract.atom.Atom;
+import de.goldkugel.data.structure.DataContainer;
 
 /**
  * 
@@ -16,19 +16,19 @@ public interface Storage {
 	 * 
 	 * @return
 	 */
-	public Atom read();
+	public DataContainer read();
 	
 	/**
 	 * 
-	 * @param atom
+	 * @param dc
 	 */
-	public void write(Atom atom);
+	public void write(DataContainer dc);
 	
 	/**
 	 * 
-	 * @param atom
+	 * @param dc
 	 */
-	public void update(Atom atom);
+	public void update(DataContainer dc);
 	
 	/**
 	 * 

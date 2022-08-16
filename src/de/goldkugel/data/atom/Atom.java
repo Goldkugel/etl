@@ -1,20 +1,20 @@
 /**
  * 
  */
-package de.goldkugel.extract.atom;
+package de.goldkugel.data.atom;
 
-import java.io.Serializable;
-
-import lombok.Data;
-import lombok.NonNull;
+import de.goldkugel.data.structure.DataContainer;
+import lombok.Getter;
+import lombok.Setter;
 
 /**
  * 
  * @author Peter Pallaoro
  *
  */
-@Data
-public class Atom implements Serializable {
+@Getter
+@Setter
+public class Atom extends DataContainer {
 
 	/**
 	 * 
@@ -24,25 +24,7 @@ public class Atom implements Serializable {
 	/**
 	 * 
 	 */
-	@NonNull
-	private String name = null;
-	
-	/**
-	 * 
-	 */
 	private String content = null;
-	
-	/**
-	 * 
-	 */
-	@NonNull
-	private String source = null;
-	
-	/**
-	 * 
-	 */
-	@NonNull
-	private Integer entryIndex = null;
 	
 	/**
 	 * 
