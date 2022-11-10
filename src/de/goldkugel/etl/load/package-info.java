@@ -5,4 +5,4 @@
  * @author pallaoro
  *
  */
-package de.goldkugel.load;
+package de.goldkugel.etl.load;
