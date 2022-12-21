@@ -5,6 +5,17 @@
   <version>0.0.1-SNAPSHOT</version>
   <name>extract</name>
   <description>The extract part of an ETL process.</description>
+  
+
+  <repositories>
+    <repository>
+      <id>jitpack.io</id>
+      <url>https://jitpack.io</url>
+    </repository>  
+  </repositories>
+
+
+  
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
@@ -17,11 +28,21 @@
       </plugin>
     </plugins>
   </build>
+  
+
+  
   <dependencies>
     <dependency>
       <groupId>org.projectlombok</groupId>
       <artifactId>lombok</artifactId>
       <version>1.16.22</version>
     </dependency>
+    
+    <dependency>
+      <groupId>com.github.Goldkugel</groupId>
+      <artifactId>signalmanager</artifactId>
+      <version>v0.0.1</version>
+    </dependency>
+
   </dependencies>
 </project>

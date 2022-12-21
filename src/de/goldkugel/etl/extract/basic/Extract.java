@@ -1,7 +1,4 @@
-/**
- * 
- */
-package de.goldkugel.etl.transport;
+package de.goldkugel.etl.extract.basic;
 
 import java.util.List;
 
@@ -12,14 +9,14 @@ import de.goldkugel.etl.Configurable;
  * @author Peter Pallaoro
  *
  */
-public interface Transport  extends Configurable {
-
+public interface Extract  extends Configurable  {
+	
 	/**
 	 * 
 	 * @param l
 	 * @return
 	 */
-	public int process(List<Object> l);
+	public int read(List<Object> l);
 	
 	/**
 	 * 
@@ -27,6 +24,6 @@ public interface Transport  extends Configurable {
 	 * @param amount
 	 * @return
 	 */
-	public int process(List<Object> l, int amount);
+	public int read(List<Object> l, int amount);
 	
 }
