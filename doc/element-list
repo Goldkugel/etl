@@ -1,2 +1,10 @@
-module:extract
-de.goldkugel.extract
+de.goldkugel.etl
+de.goldkugel.etl.atom
+de.goldkugel.etl.component
+de.goldkugel.etl.extract.basic
+de.goldkugel.etl.extract.csv
+de.goldkugel.etl.extract.database
+de.goldkugel.etl.extract.txt
+de.goldkugel.etl.global
+de.goldkugel.etl.load.basic
+de.goldkugel.etl.transport.basic

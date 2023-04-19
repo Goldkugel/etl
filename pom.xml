@@ -3,8 +3,8 @@
   <groupId>etl</groupId>
   <artifactId>extract</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>extract</name>
-  <description>The extract part of an ETL process.</description>
+  <name>etl</name>
+  <description>A general ETL process.</description>
   
 
   <repositories>
@@ -39,9 +39,21 @@
     </dependency>
     
     <dependency>
-      <groupId>com.github.Goldkugel</groupId>
+      <groupId>signalmanager</groupId>
       <artifactId>signalmanager</artifactId>
-      <version>v0.0.1</version>
+      <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    
+    <dependency>
+      <groupId>atom</groupId>
+      <artifactId>atom</artifactId>
+      <version>1.0.0-RELEASE</version>
+    </dependency>
+    
+    <dependency>
+      <groupId>configurable</groupId>
+      <artifactId>configurable</artifactId>
+      <version>1.0.0-RELEASE</version>
     </dependency>
 
   </dependencies>

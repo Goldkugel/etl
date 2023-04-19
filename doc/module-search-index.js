@@ -1,1 +1,1 @@
-moduleSearchIndex = [{"l":"extract"}];updateSearchResults();
+moduleSearchIndex = [];updateSearchResults();
